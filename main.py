@@ -67,10 +67,10 @@
 # this number could be easily 25%-50% of that mostly, so I wont add on the
 # cost of finding the max run
 # 126 * 2700 ops = 340200 ops
-# which at 10microsecs per op is 34020 us =  34ms
+# which at 10microsecs per op is 3402000 us =  3400ms = 3.4 secs max
 # 10 microsecs is like 100-1000 python instructions depending on which one,
 # lets go with 300 instructions on this cpu and algo for my code,
-# which should be generous
+# which should be very generous
 
 # lets compare this with naive
 # 4! and 4^3 * 5 = 7680 evals
